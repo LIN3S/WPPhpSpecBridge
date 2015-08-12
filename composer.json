@@ -1,0 +1,28 @@
+{
+    "name": "lin3s/wp-phpspec-brigde",
+    "description": "PhpSpec bridge for using this BDD fw with Wordpress internal functions",
+    "keywords": ["lin3s", "wordpress", "phpspec", "bridge"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "LIN3S",
+            "email": "info@lin3s.com",
+            "homepage": "https://lin3s.com"
+        }
+    ],
+    "require": {
+        "php":             ">=5.4",
+        "phpspec/phpspec": "^2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "LIN3S\\WordPressPhpSpecBridge\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "spec\\LIN3S\\WordPressPHPSpecBridge\\": "spec/"
+        }
+    }
+}
