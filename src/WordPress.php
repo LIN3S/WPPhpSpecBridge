@@ -13,12 +13,31 @@
 
 namespace
 {
+    class WP_Widget
+    {
+        public $id_base;
+        public $name;
+        public $number = false;
+
+        public function __construct($id_base, $name, $widget_options = [], $control_options = [])
+        {
+            $this->id_base = empty($id_base) ? preg_replace('/(wp_)?widget_/', '', strtolower(get_class($this))) : strtolower($id_base);
+            $this->name = $name;
+            $this->option_name = 'widget_' . $this->id_base;
+        }
+    }
+
     function add_action($hook, $callback)
     {
         return true;
     }
 
-    function is_admin()
+    function add_filter($tag, $functionToAdd)
+    {
+        return true;
+    }
+
+    function add_theme_support($feature)
     {
         return true;
     }
@@ -34,6 +53,11 @@ namespace
     }
 
     function get_template_directory_uri()
+    {
+        return true;
+    }
+
+    function is_admin()
     {
         return true;
     }
