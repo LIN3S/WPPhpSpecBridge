@@ -25,6 +25,6 @@ namespace
 
     function __($key)
     {
-        return $key;
+        return sprintf('translation of %s', $key);
     }
 }
