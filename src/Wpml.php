@@ -13,18 +13,13 @@
 
 namespace
 {
-    function icl_t()
+    function icl_t($domain, $key)
     {
-        return true;
+        return sprintf('translation of %s', $key);
     }
 
     function icl_register_string()
     {
         return true;
-    }
-
-    function __($key)
-    {
-        return sprintf('translation of %s', $key);
     }
 }
