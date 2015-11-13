@@ -61,4 +61,14 @@ namespace
     {
         return true;
     }
+
+    function add_post_type_support()
+    {
+        return true;
+    }
+
+    function remove_post_type_support()
+    {
+        return true;
+    }
 }
