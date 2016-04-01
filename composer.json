@@ -1,6 +1,6 @@
 {
     "name": "lin3s/wp-phpspec-brigde",
-    "description": "PhpSpec bridge for using this BDD fw with Wordpress internal functions",
+    "description": "PhpSpec bridge for using this BDD fw with WordPress internal functions",
     "keywords": ["lin3s", "wordpress", "phpspec", "bridge"],
     "type": "library",
     "license": "MIT",
