@@ -7,12 +7,14 @@
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
+ *
+ * @author Beñat Espiña <benatespina@gmail.com>
  */
 
 namespace {
     define('WP_DEBUG', true);
 
-    class WordPress
+    class WP_Widget
     {
         public $id_base;
         public $name;

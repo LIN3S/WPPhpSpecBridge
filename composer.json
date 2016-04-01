@@ -14,14 +14,6 @@
     "require": {
         "php": "^5.5|^7.0"
     },
-    "require-dev": {
-        "fabpot/php-cs-fixer": "^1.11"
-    },
-    "scripts": {
-        "cs": [
-            "php-cs-fixer fix --config-file=.php_cs"
-        ]
-    },
     "autoload": {
         "psr-4": {
             "LIN3S\\WordPressPhpSpecBridge\\": "src/LIN3S/WordPressPhpSpecBridge/"
