@@ -72,4 +72,9 @@ namespace {
     {
         return true;
     }
+
+    function register_widget($className)
+    {
+        return true;
+    }
 }
