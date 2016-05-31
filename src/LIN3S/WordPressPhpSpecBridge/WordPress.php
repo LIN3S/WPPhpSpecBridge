@@ -77,4 +77,14 @@ namespace {
     {
         return true;
     }
+
+    function get_bloginfo()
+    {
+        return 'WordPress Standard';
+    }
+
+    function home_url()
+    {
+        return 'http://wordpress-standard';
+    }
 }
