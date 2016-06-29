@@ -87,4 +87,99 @@ namespace {
     {
         return 'http://wordpress-standard';
     }
+
+    function is_embed()
+    {
+        return true;
+    }
+
+    function is_404()
+    {
+        return true;
+    }
+
+    function is_search()
+    {
+        return true;
+    }
+
+    function is_front_page()
+    {
+        return true;
+    }
+
+    function is_home()
+    {
+        return true;
+    }
+
+    function is_post_type_archive()
+    {
+        return true;
+    }
+
+    function is_tax()
+    {
+        return true;
+    }
+
+    function is_attachment()
+    {
+        return true;
+    }
+
+    function is_single()
+    {
+        return true;
+    }
+
+    function is_page()
+    {
+        return true;
+    }
+
+    function is_singular()
+    {
+        return true;
+    }
+
+    function is_category()
+    {
+        return true;
+    }
+
+    function is_tag()
+    {
+        return true;
+    }
+
+    function is_author()
+    {
+        return true;
+    }
+
+    function is_date()
+    {
+        return true;
+    }
+
+    function is_archive()
+    {
+        return true;
+    }
+
+    function is_paged()
+    {
+        return true;
+    }
+
+    function remove_filter($tag, $function_to_remove, $priority = 10)
+    {
+        return true;
+    }
+
+    function get_template_directory()
+    {
+        return 'src/themes/AppTheme/Resources/views';
+    }
 }
